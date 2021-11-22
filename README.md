@@ -67,6 +67,9 @@ emmake make install
 
 #### build-wasm
 
+
+* 1. wasm 环境 X86_64 切换标识 `#define X86_64` wasm 下记得注释掉
+
 ```bash
 # main.c 在这个build 文件夹下
 mkdir server
